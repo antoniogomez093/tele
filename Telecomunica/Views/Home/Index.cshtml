@@ -1,0 +1,21 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Telecomunica</h1>
+    <p class="lead">Esta es la pagina de ingreso de empleados al igual que los roles.</p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>@Html.ActionLink("Roles","Index","Roles")</h2>
+        <p>
+            Este es el crud para ingresar un rol.
+        </p>
+    </div>
+    <div class="col-md-4">
+        <h2>@Html.ActionLink("Personas", "Index", "Personas")</h2>
+        <p>Este es el crud para ingresar a los empleados de telecomunica.</p>
+    </div>
+</div>
